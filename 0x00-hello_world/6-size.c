@@ -3,7 +3,6 @@
 /**
  * Description: main prints out string to stdout
  * Return: 0 if success
- * main - Entry point
  */
 int main(void)
 {
