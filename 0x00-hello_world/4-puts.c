@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * * main - Printing in low level C language
- * *
- * * Return: Always 0 (Successful)
- * */
+ * main - Print the string in the in C input function
+ *
+ * Description: using the main function
+ * this program prints "Programming is like building a multilingual puzzle"
+ * Return (0)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
