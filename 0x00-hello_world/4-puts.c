@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * Description: main - Prints out a string to stdout.
  * main - entry point
  *
  * Return 0 after printing the function
