@@ -1,11 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - Print the string in the C put function
- *
- * Description: using the main function
+ *Description: main - Prints out a string to stdout.
  * this program prints "Programming is like building a multilingual puzzle
- * Return Always 0 (if successful)
+ * Return 0 if successful
  */
 int main(void)
 {
