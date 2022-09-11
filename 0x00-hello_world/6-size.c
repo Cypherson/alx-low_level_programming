@@ -1,22 +1,19 @@
 #include <stdio.h>
 
 /**
- * Description: main prints out string to stdout
- * Return: 0 if success
- * main: prints the size of many var types
- */
+* description: main prints the string in the function
+*return: 0 if success
+*/
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
+char c;
+int i;
+long li;
+float f;
 
-	printf("Size of a char: %d byte(s)\n", sizeof(a));
-	printf("Size of an int: %d byte(s)\n", sizeof(b));
-	printf("Size of a long int: %d byte(s)\n", sizeof(c));
-	printf("Size of a long long int: %d bytes(s)\n" sizeof(d));
-	printf("Size of a float: %d byte(s)\n", sizeof(e))
+printf("Size of char: %ld byte(s)\n", sizeof(c));
+printf("Size of int: %ld byte(s)\n", sizeof(i));
+printf("Size of long: %ld byte(s)\n", sizeof(li));
+printf("Size of float: %ld byte(s)\n", sizeof(f));
 return (0);
 }
