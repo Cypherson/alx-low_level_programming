@@ -3,14 +3,18 @@
 /**
  * _puts -  prints a string to stdout
  * @str: string to be printed to stdout
+ *
+ * Description: prints a str
  * Return: no error if successful
  */
 
 void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
+	int i = 0;
+	while (*(str + i) != '\0')
 	{
-		_putchar(*str);
+		putchar(*(str + i));
+		i++
 	}
-	_putchar('\n');
+	putchar(10);
 }
