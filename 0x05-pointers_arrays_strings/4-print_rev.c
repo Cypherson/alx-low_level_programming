@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include "main.h"
 #include <string.h>
-
+#include "main.h"
 /**
  * print_rev - this function prints a string is reverse
  * @s: is the input string
@@ -14,7 +13,6 @@ void print_rev(char *s)
 
 	while (len--)
 		putchar(*(s + len));
-	putchar(10);
 	putchar('\n');
 
 }
