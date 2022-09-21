@@ -4,7 +4,7 @@
 /**
  * rev_string - a function that reverses a string.
  * @s: string to be modified
- * Return: nothing
+ * Return: void
  */
 
 void rev_string(char *s)
