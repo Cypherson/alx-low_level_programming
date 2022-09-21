@@ -5,13 +5,13 @@
  * @dest: destination to be copied to
  * @src: source to be copied from
  *
- * Return: destination
+ * Return: dest.
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	int inc = 0;
-
+	int dest;
 	while (*(src + inc) != '\0')
 	{
 		*(dest + inc) = *(src + inc);
