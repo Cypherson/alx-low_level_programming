@@ -4,8 +4,10 @@
 /**
  * puts2 - prints every other character
  * @str: string
+ *
  * Return: nothing
  */
+i
 void puts2(char *str)
 {
 	int i = 0;
