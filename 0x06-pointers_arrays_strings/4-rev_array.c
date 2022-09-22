@@ -6,14 +6,13 @@
  * @n: is the number of elements
  */
 
-rray(int *a, int n)
+void reverse_array(int *a, int n)
 {
-	int tmp, index;
-
-	for (index = n - 1; index > n / 2; index--)
-	{
-		tmp = a[n - 1 - index];
-		a[n - 1 - index] = a[index];
-		a[index] = tmp;
-	}
+int tmp, index;
+for (index = n - 1; index > n / 2; index--)
+{
+tmp = a[n - 1 - index];
+a[n - 1 - index] = a[index];
+a[index] = tmp;
+}
 }
