@@ -4,10 +4,10 @@
  * _strcmp - A function that compares two string
  * @s1: first string
  * @s2: second string
- * Return: 
- * 		return zero if s1 = s2
- * 		return a negative if s1 < s2
- * 		return a positive if s2 > s2
+ * Return:
+ *		return zero if s1 = s2
+ *		return a negative if s1 < s2
+ *		return a positive if s2 > s2
  */
 
 int _strcmp(char *s1, char *s2)
@@ -35,7 +35,6 @@ int _strcmp(char *s1, char *s2)
 		}
 		else
 			i++;
-
 	}
 	return (diff);
 }
