@@ -5,7 +5,7 @@
  *  @s1: the first string
  *  @s2: the second string
  *  Return:
- *  		0 if s1 is equal to s2
+ *  		zero if s1 is equal to s2
  *  		negative if s1 < s2
  *  		positive if s1 > s2
  */
@@ -16,7 +16,7 @@ int _strcmp(char *s1, char *s2)
 
 	while (1)
 	{
-		if (s1[i] == '\0' && s2[i] =='\0')
+		if (s1[i] == '\0' && s2[i] == '\0')
 			break;
 		else if (s1[i] == '\0')
 		{
