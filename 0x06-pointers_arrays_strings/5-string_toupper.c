@@ -7,7 +7,7 @@
  */
 
 
-char *string_toupper(char *n)
+char *string_toupper(char *)
 {
 	int 1;
 
