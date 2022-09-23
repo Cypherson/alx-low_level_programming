@@ -2,10 +2,8 @@
 
 /**
  * leet - the encoder
- * @n: input
- *
+ * @n: input*
  * Return: value of n
- *
  */
 
 char *leet(char *n)
