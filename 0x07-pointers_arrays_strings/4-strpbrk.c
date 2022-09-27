@@ -4,6 +4,7 @@
  * _strpbrk - a function that searches a string for any of a set of bytes.
  * @s: string to be assessed
  * @accept: string to assess against
+ *
  * Return: NULL if no match or pointer to byte in s that match
  */
 
