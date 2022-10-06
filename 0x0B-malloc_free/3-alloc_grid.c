@@ -19,6 +19,7 @@ int **alloc_grid(int width, int height)
 	else
 	{
 		ptr = (int **) malloc(height * sizeof(int *));
+
 		if (!ptr[i])
 		{
 			for (j = 0; j <= i; j++)
