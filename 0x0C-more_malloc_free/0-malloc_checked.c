@@ -1,10 +1,10 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - a function that allocates memory using malloc.
+ * malloc_checked - this function that allocates memory using malloc.
  * @b: memory to be allocated
  *
- * Retuen: pointer to b
+ * Return: pointer to b
  */
 
 void *malloc_checked(unsigned int b)
