@@ -7,8 +7,8 @@
  * Return: success
  *
  */
-int _abs(int ab)
+int abs(int ab)
 {
-return 
+return
 	(ab * ((ab > 0) - (ab < 0)));
 }
