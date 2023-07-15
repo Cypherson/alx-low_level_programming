@@ -10,28 +10,24 @@
 
 int main(void)
 {
-	int num1 = 9;
+	int num1;
 	int num2;
 
-	while (num1 <= 9)
+	for (num1 = 48; num1 <= 56; num1++)
 	{
-		num2 = 0;
-		while (num2 <= 9)
+		for (num2 = 49; num2 <= 57; num2++)
 		{
-			if (num1 != num2 && num1 < num2)
+			if (num2 > num1)
 			{
-				putchar(num1 + 48);
-				putchar(num2 + 48);
-
-				if (num1 + num2 != 17)
+				putchar(num1);
+				putchar(num2);
+				if (num1 != 56 || num2 != 57)
 				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
-			++num2;
 		}
-		++num1;
 	}
 	putchar('\n');
 	return (0);
