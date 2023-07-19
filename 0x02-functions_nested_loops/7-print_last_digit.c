@@ -2,14 +2,16 @@
 
 /**
  * print_last_digit - prints the last digit of a number.
- * @ld: number's last digit to be printed
+ * @n: number imputed
  *
  * Return: last digit
  *
  */
 
-int print_last_digit(int ld)
+int print_last_digit(int n)
 {
+	int ld = n % 10;
+
 	if (ld < 0)
 	{
 		_putchar(-ld + '0');
