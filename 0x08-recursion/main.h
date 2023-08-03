@@ -25,5 +25,9 @@ int find_sqrt(int root, int num);
 
 int is_prime(unsigned int n, unsigned int c);
 
+int check_palindrome(char *s, int len, int i);
+
+int count_strlen(char *s);
+
 
 #endif
