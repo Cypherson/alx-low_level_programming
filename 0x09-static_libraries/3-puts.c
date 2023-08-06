@@ -5,10 +5,6 @@
  *
  * Return: void
  *
- *
- * (c) Cypherson
- *
- *
  */
 void _puts(char *str)
 {
