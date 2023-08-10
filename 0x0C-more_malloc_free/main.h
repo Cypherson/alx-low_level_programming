@@ -13,5 +13,17 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 
 int _putchar(char c);
 
+void mul(char *s1, char *s2);
+
+char *_memset(char *s, char b, unsigned int n);
+
+void *_calloc(unsigned int nmemb, unsigned int size);
+
+int err_exit(void);
+
+int _length(char *str);
+
+int check_number(char *str);
+
 
 #endif
