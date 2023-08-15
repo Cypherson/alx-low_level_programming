@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * struct dog - dat structure for dog
+ * struct dog - data structure for dog
  *
  * @name: name of dog
  *
@@ -12,7 +12,7 @@
  *
  *
  * (c) Cypherson
-*/
+ */
 struct dog
 {
 	char *name;
