@@ -1,3 +1,4 @@
+/*
  * File: 100-elf_header.c
  * e_ident[] - IDENTIFICATION INDEXES
  * Return: nothing
